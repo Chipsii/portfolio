@@ -15,10 +15,10 @@ export default function Home() {
       <main className="flex items-center text-dark w-full min-h-screen">
         <Layout classname='pt-0'>
           <div className="flex items-center justify-between w-full">
-            <div className="w-1/2">
+            <div className=" w-1/3">
             <Image src={profilePic} alt="Hasib" className='w-full h-auto' />
              </div>
-             <div className="w-1/2 flex flex-col items-center self-center">
+             <div className=" w-1/2 flex flex-col items-center self-center">
               <AnimatedText text="Turning Vision Into Reality With Code And Design." className='!text-6xl !text-left' />
               <p>As a skilled full-stack developer, I am dedicated to turning ideas into innovative web applications. 
 Explore my latest projects and articles, showcasing my expertise in React.js and web development.</p>
