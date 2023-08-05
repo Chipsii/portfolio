@@ -5,6 +5,7 @@ import Head from "next/head";
 import React, { useEffect, useRef } from "react";
 import profilePic from "../../public/images/profile/developer-pic-2.jpg";
 import Image from "next/image";
+import Skills from "@/components/Skills";
 
 
 const AnimatedNumbers = ({value}) => {
@@ -89,6 +90,8 @@ every project I work on. I look forward to the opportunity to bring my skills an
 </div>
 
             </div>
+
+            <Skills/>
             </Layout>
         </main>
         </>
