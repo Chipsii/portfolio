@@ -6,6 +6,8 @@ import React, { useEffect, useRef } from "react";
 import profilePic from "../../public/images/profile/developer-pic-2.jpg";
 import Image from "next/image";
 import Skills from "@/components/Skills";
+import Experience from "@/components/Experience";
+import Education from "@/components/Education";
 
 
 const AnimatedNumbers = ({value}) => {
@@ -92,6 +94,8 @@ every project I work on. I look forward to the opportunity to bring my skills an
             </div>
 
             <Skills/>
+            <Experience/>
+            <Education/>
             </Layout>
         </main>
         </>
