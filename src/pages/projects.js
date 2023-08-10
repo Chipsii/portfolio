@@ -6,7 +6,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 import project1 from "../../public/images/projects/portfolio-site.jpg";
-import project2 from "../../public/images/projects/spotitubemerge.jpg";
+import project2 from "G:\Web development\portfolio\public\images\projects\spotitubemerge.jpg";
 
 
 
