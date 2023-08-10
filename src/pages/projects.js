@@ -6,6 +6,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 import project1 from "../../public/images/projects/portfolio-site.jpg";
+import subProject from "../../public/images/projects/portfolio-site-2.jpg";
 import project2 from "../../public/images/projects/sym.jpg";
 import todolist from  "../../public/images/projects/todolist.jpg";
 import drum from "../../public/images/projects/drum.jpg";
@@ -91,10 +92,10 @@ const projects = () => {
                         <div className="col-span-6">
                             <Project
                                 title="Portfolio Website"
-                                img={project1}
+                                img={subProject}
                                 summary="The front-end of the portfolio was designed with a focus on modern and visually appealing aesthetics, utilizing HTML, CSS, and possibly JavaScript to achieve the desired interactive features. 
                                 The user's projects are showcased with descriptions, images, and links to demonstrate their skills and accomplishments."
-                                link="https://github.com/Chipsii/portfolio"
+                                link="https://github.com/Chipsii/SS"
                                 github="https://github.com/Chipsii/"
                                 type="Portfolio Website"
                             />
