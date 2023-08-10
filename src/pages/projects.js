@@ -9,9 +9,10 @@ import project1 from "../../public/images/projects/portfolio-site.jpg";
 import project2 from "../../public/images/projects/spotitubemerge.jpg";
 
 
-const FeaturedProject =({type, title, summary, img, link, github}) => {
+
+const FeaturedProject = ({ type, title, summary, img, link, github }) => {
     return (
-        <article className=" w-full flex items-center justify-between relative rounded-br-2x1 rounded-3xl border border-solid border-dark bg-light shadow-2xl p-12">
+        <article className="w-full flex items-center justify-between relative rounded-br-2x1 rounded-3xl border border-solid border-dark bg-light shadow-2xl p-12">
         <div className="absolute top-0 -right-3 -z-10 w-[101%] h-[103%] rounded-[2.5rem] bg-dark rounded-br-3xl" />
 
         <Link href={link} target="_blank"
@@ -37,7 +38,7 @@ const FeaturedProject =({type, title, summary, img, link, github}) => {
 }
 
 
-const Project = ({title, type, img, link, github}) => {
+const Project = ({ title, type, img, link, github }) => {
     return (
         <article className="w-full flex flex-col items-center justify-center rounded-2xl border border-solid border-dark bg-light p-6 relative">
         <div className="absolute top-0 -right-3 -z-10 w-[101%] h-[103%] rounded-[2rem] bg-dark rounded-br-3xl" />
@@ -65,39 +66,34 @@ const Project = ({title, type, img, link, github}) => {
 const projects = () => {
     return (
         <>
-        <Head>
-            <title>Chips | Project Page</title>
-            <meta name="description" content="any description" />
-        </Head>
-        <main className=" w-full mb-16 flex flex-col items-center justify-center">
-            <Layout classname='pt-16 '>
-                <AnimatedText text="Imagination Trumps Knowledge!" 
-                className="mb-16"
-                />
-
-            <div className=" grid grid-col-12 gap-24 gap-y-32">
-                <div className="col-span-12">
-                    <FeaturedProject
-                    title="Portfolio Website"
-                    img={project1}
-                    summary="The portfolio website was desTheigned with a focus on modern and visually appealing aesthetics, utilizing HTML, CSS, and JavaScript to achieve the desired interactive features. 
-                    It is showcased with descriptions, images, and links to demonstrate their skills and accomplishments. It includes various secations such as an introduction, about the user, a portfolio gallery, contact information, and other interactive elements."
-                    link="https://hasib-hossain.netlify.app/"
-                    github="https://github.com/Chipsii/"
-                    type="Portfolio Website"
-                    />
-                </div>
-                <div className="col-span-6">
-                <Project
-                    title="Portfolio Website"
-                    img={project1}
-                    summary="The portfolio website was desTheigned with a focus on modern and visually appealing aesthetics, utilizing HTML, CSS, and JavaScript to achieve the desired interactive features. 
-                    It is showcased with descriptions, images, and links to demonstrate their skills and accomplishments. It includes various secations such as an introduction, about the user, a portfolio gallery, contact information, and other interactive elements."
-                    link="https://github.com/Chipsii/portfolio"
-                    github="https://github.com/Chipsii/"
-                    type="Portfolio Website"
-                    />
-                </div>
+            <Head>
+                <title>Chips | Project Page</title>
+                <meta name="description" content="any description" />
+            </Head>
+            <main className="w-full mb-16 flex flex-col items-center justify-center">
+                <Layout classname='pt-16 '>
+                    <AnimatedText text="Imagination Trumps Knowledge!" className="mb-16" />
+                    <div className="grid grid-cols-12 gap-24 gap-y-32">
+                        <div className="col-span-12">
+                            <FeaturedProject
+                                title="Portfolio Website"
+                                img={project1}
+                                summary="The portfolio website was designed with a focus on modern and visually appealing aesthetics..."
+                                link="https://hasib-hossain.netlify.app/"
+                                github="https://github.com/Chipsii/"
+                                type="Portfolio Website"
+                            />
+                        </div>
+                        <div className="col-span-6">
+                            <Project
+                                title="Portfolio Website"
+                                img={project1}
+                                summary="The portfolio website was designed with a focus on modern and visually appealing aesthetics..."
+                                link="https://github.com/Chipsii/portfolio"
+                                github="https://github.com/Chipsii/"
+                                type="Portfolio Website"
+                            />
+                        </div>
                 <div className="col-span-6">
                 <Project
                     title="To do list Project"
