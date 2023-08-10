@@ -7,6 +7,9 @@ import Link from 'next/link';
 import React from 'react';
 import project1 from "../../public/images/projects/portfolio-site.jpg";
 import project2 from "../../public/images/projects/sym.jpg";
+import todolist from  "../../public/images/projects/todolist.jpg";
+import drum from "../../public/images/projects/drum.jpg";
+import diceGame from "../../public/images/projects/dicegame.jpg"; 
 
 
 
@@ -99,7 +102,7 @@ const projects = () => {
                 <div className="col-span-6">
                 <Project
                     title="To do list Project"
-                    img={project1}
+                    img={todolist}
                     summary="This to-do list application allows users to manage tasks and activities by creating, editing, and marking tasks as completed. 
                     The project involve front-end development using HTML, CSS, and JavaScript to create an interactive user interface where tasks can be added, edited, and marked off as completed. 
                     It also involve back-end development for tasks such as data storage, user authentication, and task management."
@@ -123,7 +126,7 @@ const projects = () => {
                 <div className="col-span-6">
                 <Project
                     title="Dummy Drum Website"
-                    img={project1}
+                    img={drum}
                     summary="The purpose of the project appears to be creating a virtual drumming experience where users can simulate playing different drum sounds using their computer keyboard or other input devices."
                     link="https://github.com/Chipsii/Drum"
                     github="https://github.com/Chipsii/"
@@ -133,7 +136,7 @@ const projects = () => {
                 <div className="col-span-6">
                 <Project
                     title="Roll Dice Application"
-                    img={project1}
+                    img={diceGame}
                     summary=""
                     link="https://github.com/Chipsii/Dice"
                     github="https://github.com/Chipsii/"
