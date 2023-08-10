@@ -6,7 +6,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 import project1 from "../../public/images/projects/portfolio-site.jpg";
-import project2 from "G:\Web development\portfolio\public\images\projects\spotitubemerge.jpg";
+import project2 from "../../public/images/projects/sym.jpg";
 
 
 
@@ -78,7 +78,8 @@ const projects = () => {
                             <FeaturedProject
                                 title="Portfolio Website"
                                 img={project1}
-                                summary="The portfolio website was designed with a focus on modern and visually appealing aesthetics..."
+                                summary="The front-end of the portfolio was designed with a focus on modern and visually appealing aesthetics, utilizing HTML, CSS, and possibly JavaScript to achieve the desired interactive features. 
+                                The user's projects are showcased with descriptions, images, and links to demonstrate their skills and accomplishments."
                                 link="https://hasib-hossain.netlify.app/"
                                 github="https://github.com/Chipsii/"
                                 type="Portfolio Website"
@@ -88,7 +89,8 @@ const projects = () => {
                             <Project
                                 title="Portfolio Website"
                                 img={project1}
-                                summary="The portfolio website was designed with a focus on modern and visually appealing aesthetics..."
+                                summary="The front-end of the portfolio was designed with a focus on modern and visually appealing aesthetics, utilizing HTML, CSS, and possibly JavaScript to achieve the desired interactive features. 
+                                The user's projects are showcased with descriptions, images, and links to demonstrate their skills and accomplishments."
                                 link="https://github.com/Chipsii/portfolio"
                                 github="https://github.com/Chipsii/"
                                 type="Portfolio Website"
@@ -113,7 +115,7 @@ const projects = () => {
                     summary="SpotiTubeMerge is an innovative online platform that allows users to merge their Spotify and YouTube playlists, providing a unified music experience in a single harmonious platform. 
                     With SpotiTubeMerge, users can effortlessly connect their Google and Spotify accounts using authorized tokens, enabling them to combine and synchronize playlists from both services. 
                     Say goodbye to switching between apps to enjoy your favorite songs - SpotiTubeMerge optimizes music curation and ensures a seamless music listening experience."
-                    link="https://github.com/Chipsii/spotitubemerge"
+                    link="https://spotitubemerge.nexentra.online"
                     github="https://github.com/Chipsii/"
                     type="Featured Project"
                     />
