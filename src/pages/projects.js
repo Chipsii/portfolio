@@ -188,22 +188,25 @@ const projects = () => {
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
-                title="Dummy Drum Website"
+                title="101cars"
                 img={carShowcase}
-                summary="The purpose of the project appears to be creating a virtual drumming experience where users can simulate playing different drum sounds using their computer keyboard or other input devices."
-                link="https://github.com/Chipsii/Drum"
-                github="https://github.com/Chipsii/"
-                type="Drum play project"
+                summary="The website car-showcase is a platform that offers services related to car rental. 
+                The platform is designed to streamline the car rental experience by offering an effortless booking process."
+                link="https://car-showcase-tawny.vercel.app/"
+                github="https://github.com/Chipsii/car_showcase"
+                type="Car Showcase project"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
-                title="Roll Dice Application"
+                title="Genesis-Dashboard"
                 img={dashboard}
-                summary=""
-                link="https://github.com/Chipsii/Dice"
-                github="https://github.com/Chipsii/"
-                type="Dice Application"
+                summary="Genesis-Dashboard - With this powerful tool, users can create their own tables and easily add data to them. 
+                The tables are securely saved in the backend, ensuring data integrity and flexibility. 
+                What's more, these tables are exposed through public endpoints, enabling seamless integration with other websites and applications"
+                link="https://dashboard.genesis.nexentra.online"
+                github="https://github.com/nexentra/genesis-dashboard"
+                type="Dashboard Application"
               />
             </div>
           </div>
