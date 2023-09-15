@@ -9,7 +9,7 @@ import project1 from "../../public/images/projects/portfolio-site.jpg";
 import subProject from "../../public/images/projects/portfolio-site-2.jpg";
 import project2 from "../../public/images/projects/sym.jpg";
 import todolist from "../../public/images/projects/todolist.jpg";
-import carShowcase from "../../public/images/projects/carshowcase.jpg";
+import carShowcase from "../../public/images/projects/carShowcase.jpg";
 import dashboard from "../../public/images/projects/dashboard.jpg";
 import { motion } from "framer-motion";
 import TransitionEffect from "@/components/TransitionEffect";
@@ -19,7 +19,7 @@ const FramerImage = motion(Image);
 const FeaturedProject = ({ type, title, summary, img, link, github }) => {
   return (
     <article className="w-full flex items-center justify-between relative rounded-br-2x1 rounded-3xl border border-solid border-dark bg-light shadow-2xl p-12 dark:bg-dark dark:border-light lg:flex-col lg:p-8 xs:rounded-2xl xs:rounded-br-3xl xs:p-4">
-      <div className="absolute top-0 -right-3 -z-10 w-[101%] h-[103%] rounded-[2.5rem] bg-dark dark:bg-light rounded-br-3xl xs:-right-2 sm:h-[102%] xs:w-full xs:rounded-[1.5rem]"/>
+      <div className="absolute top-0 -right-3 -z-10 w-[101%] h-[103%] rounded-[2.5rem] bg-dark dark:bg-light rounded-br-3xl xs:-right-2 sm:h-[102%] xs:w-full xs:rounded-[1.5rem]" />
 
       <Link
         href={link}
@@ -52,7 +52,9 @@ const FeaturedProject = ({ type, title, summary, img, link, github }) => {
             {title}
           </h2>
         </Link>
-        <p className="my-2 font-medium text-dark dark:text-light sm:text-sm">{summary}</p>
+        <p className="my-2 font-medium text-dark dark:text-light sm:text-sm">
+          {summary}
+        </p>
         <div className="mt-2 flex items-center">
           <Link href={link} target="_blank" className="w-10">
             {" "}
@@ -101,7 +103,9 @@ const Project = ({ title, type, img, link, github }) => {
           target="_blank"
           className="hover:underline underline-offset-2"
         >
-          <h2 className="my-2 w-full text-left text-3xl font-bold lg:text-2xl">{title}</h2>
+          <h2 className="my-2 w-full text-left text-3xl font-bold lg:text-2xl">
+            {title}
+          </h2>
         </Link>
         <div className="w-full mt-2 flex items-center justify-between">
           <Link
