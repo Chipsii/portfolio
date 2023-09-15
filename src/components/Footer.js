@@ -14,7 +14,7 @@ const Footer = () => {
           Build With <span className="text-primary dark:text-primaryDark text-2x1 px-1">&#9825;</span>
           by&nbsp;
           <Link
-            href="https://spotitubemerge.nexentra.online"
+            href="https://github.com/Chipsii"
             className=" underline underline-offset-2"
             target={"_blank"}
           >

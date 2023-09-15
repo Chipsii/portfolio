@@ -9,8 +9,8 @@ import project1 from "../../public/images/projects/portfolio-site.jpg";
 import subProject from "../../public/images/projects/portfolio-site-2.jpg";
 import project2 from "../../public/images/projects/sym.jpg";
 import todolist from "../../public/images/projects/todolist.jpg";
-import drum from "../../public/images/projects/drum.jpg";
-import diceGame from "../../public/images/projects/dicegame.jpg";
+import carShowcase from "../../public/images/projects/carshowcase.jpg";
+import dashboard from "../../public/images/projects/dashboard.jpg";
 import { motion } from "framer-motion";
 import TransitionEffect from "@/components/TransitionEffect";
 
@@ -185,7 +185,7 @@ const projects = () => {
             <div className="col-span-6 sm:col-span-12">
               <Project
                 title="Dummy Drum Website"
-                img={drum}
+                img={carShowcase}
                 summary="The purpose of the project appears to be creating a virtual drumming experience where users can simulate playing different drum sounds using their computer keyboard or other input devices."
                 link="https://github.com/Chipsii/Drum"
                 github="https://github.com/Chipsii/"
@@ -195,7 +195,7 @@ const projects = () => {
             <div className="col-span-6 sm:col-span-12">
               <Project
                 title="Roll Dice Application"
-                img={diceGame}
+                img={dashboard}
                 summary=""
                 link="https://github.com/Chipsii/Dice"
                 github="https://github.com/Chipsii/"
