@@ -56,9 +56,8 @@ const FeaturedProject = ({ type, title, summary, img, link, github }) => {
           {summary}
         </p>
         <div className="mt-2 flex items-center">
-          <Link href={link} target="_blank" className="w-10">
-            {" "}
-            <GithubIcon />{" "}
+          <Link href={github} target="_blank" className="w-10">
+            <GithubIcon />
           </Link>
           <Link
             href={link}
@@ -116,8 +115,7 @@ const Project = ({ title, type, img, link, github }) => {
             Visit
           </Link>
           <Link href={github} target="_blank" className="w-8 md:w-6">
-            {" "}
-            <GithubIcon />{" "}
+            <GithubIcon />
           </Link>
         </div>
       </div>
@@ -147,7 +145,7 @@ const projects = () => {
                 summary="The front-end of the portfolio was designed with a focus on modern and visually appealing aesthetics, utilizing HTML, CSS, and possibly JavaScript to achieve the desired interactive features. 
                                 The user's projects are showcased with descriptions, images, and links to demonstrate their skills and accomplishments."
                 link="https://hasib-hossain.netlify.app/"
-                github="https://github.com/Chipsii/"
+                github="https://github.com/Chipsii/portfolio"
                 type="Portfolio Website"
               />
             </div>
@@ -176,7 +174,7 @@ const projects = () => {
             </div>
             <div className="col-span-12">
               <FeaturedProject
-                title="SpotiTubeMerge"
+                title="Ableton-Clone"
                 img={project2}
                 summary="Ableton clone is a platform that offers services related to music production."
                 link="https://ableton-clone-pi.vercel.app/"
