@@ -7,7 +7,7 @@ import Link from "next/link";
 import React from "react";
 import project1 from "../../public/images/projects/portfolio-site.jpg";
 import subProject from "../../public/images/projects/portfolio-site-2.jpg";
-import project2 from "../../public/images/projects/sym.jpg";
+import project2 from "../../public/images/projects/AbletonClone.jpg";
 import todolist from "../../public/images/projects/todolist.jpg";
 import carShowcase from "../../public/images/projects/carShowcase.jpg";
 import dashboard from "../../public/images/projects/dashboard.jpg";
@@ -178,11 +178,9 @@ const projects = () => {
               <FeaturedProject
                 title="SpotiTubeMerge"
                 img={project2}
-                summary="SpotiTubeMerge is an innovative online platform that allows users to merge their Spotify and YouTube playlists, providing a unified music experience in a single harmonious platform. 
-                    With SpotiTubeMerge, users can effortlessly connect their Google and Spotify accounts using authorized tokens, enabling them to combine and synchronize playlists from both services. 
-                    Say goodbye to switching between apps to enjoy your favorite songs - SpotiTubeMerge optimizes music curation and ensures a seamless music listening experience."
-                link="https://spotitubemerge.nexentra.online"
-                github="https://github.com/Chipsii/"
+                summary="Ableton clone is a platform that offers services related to music production."
+                link="https://ableton-clone-pi.vercel.app/"
+                github="https://github.com/Chipsii/ableton-clone"
                 type="Featured Project"
               />
             </div>
