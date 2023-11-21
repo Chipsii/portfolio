@@ -8,7 +8,7 @@ import React from "react";
 import project1 from "../../public/images/projects/portfolio-site.jpg";
 import subProject from "../../public/images/projects/portfolio-site-2.jpg";
 import project2 from "../../public/images/projects/AbletonClone.jpg";
-import todolist from "../../public/images/projects/todolist.jpg";
+import ohstudio from "../../public/images/projects/ohstudio.png";
 import carShowcase from "../../public/images/projects/carShowcase.jpg";
 import dashboard from "../../public/images/projects/dashboard.jpg";
 import { motion } from "framer-motion";
@@ -162,14 +162,12 @@ const projects = () => {
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
-                title="To do list Project"
-                img={todolist}
-                summary="This to-do list application allows users to manage tasks and activities by creating, editing, and marking tasks as completed. 
-                    The project involve front-end development using HTML, CSS, and JavaScript to create an interactive user interface where tasks can be added, edited, and marked off as completed. 
-                    It also involve back-end development for tasks such as data storage, user authentication, and task management."
-                link="https://github.com/Chipsii/todolist2"
-                github="https://github.com/Chipsii/"
-                type="To do list App"
+                title="OH-STUDIO Clone"
+                img={ohstudio}
+                summary="Clone of the well-known website OH-STUDIO."
+                link="https://oh-studio-clone-mu.vercel.app/"
+                github="https://github.com/Chipsii/oh-studio-clone"
+                type="Website clone(OH-STUDIO)"
               />
             </div>
             <div className="col-span-12">
@@ -179,7 +177,7 @@ const projects = () => {
                 summary="Ableton clone is a platform that offers services related to music production."
                 link="https://ableton-clone-pi.vercel.app/"
                 github="https://github.com/Chipsii/ableton-clone"
-                type="Featured Project"
+                type="Website clone(Ableton)"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">

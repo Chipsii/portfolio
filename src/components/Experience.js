@@ -75,12 +75,12 @@ const Experience = () => {
           />
 
           <Details
-            position="Graphics Designer"
-            company="BSRS"
-            companyLink=""
+            position="Front-end Web Developer"
+            company="Techynaf"
+            companyLink="www.techynaf.com"
             time="2023"
-            address="Dhaka, Bangladesh"
-            work="Created engaging and responsive website designs with CodePen that increased website traffic.
+            address="Londona, UK"
+            work="Created engaging and responsive website designs with that increased website traffic.
                     Streamlined CSS styling process with Sass to reduce production time."
           />
         </ul>
