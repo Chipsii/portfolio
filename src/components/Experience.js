@@ -77,9 +77,9 @@ const Experience = () => {
           <Details
             position="Front-end Web Developer"
             company="Techynaf"
-            companyLink="www.techynaf.com"
-            time="2023"
-            address="Londona, UK"
+            companyLink="https://techynaf.com/"
+            time="2023-Present"
+            address="London, UK"
             work="Created engaging and responsive website designs with that increased website traffic.
                     Streamlined CSS styling process with Sass to reduce production time."
           />
