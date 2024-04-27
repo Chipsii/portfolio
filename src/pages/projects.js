@@ -6,11 +6,11 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import project1 from "../../public/images/projects/portfolio-site.jpg";
-import mudslanger from "../../public/images/projects/mudslanger.png";
+import mudslanger from "../../public/images/projects/mudslangers.jpg";
 import project2 from "../../public/images/projects/AbletonClone.jpg";
 import ohstudio from "../../public/images/projects/ohstudio.png";
 import carShowcase from "../../public/images/projects/carShowcase.jpg";
-import procurementing from "../../public/images/projects/procurementing.png";
+import procurementing from "../../public/images/projects/procurementing.jpg";
 import { motion } from "framer-motion";
 import TransitionEffect from "@/components/TransitionEffect";
 
