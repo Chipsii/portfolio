@@ -6,11 +6,11 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import project1 from "../../public/images/projects/portfolio-site.jpg";
-import subProject from "../../public/images/projects/portfolio-site-2.jpg";
+import mudslanger from "../../public/images/projects/mudslanger.png";
 import project2 from "../../public/images/projects/AbletonClone.jpg";
 import ohstudio from "../../public/images/projects/ohstudio.png";
 import carShowcase from "../../public/images/projects/carShowcase.jpg";
-import dashboard from "../../public/images/projects/dashboard.jpg";
+import procurementing from "../../public/images/projects/procurementing.png";
 import { motion } from "framer-motion";
 import TransitionEffect from "@/components/TransitionEffect";
 
@@ -151,13 +151,12 @@ const projects = () => {
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
-                title="Portfolio Website"
-                img={subProject}
-                summary="The front-end of the portfolio was designed with a focus on modern and visually appealing aesthetics, utilizing HTML, CSS, and possibly JavaScript to achieve the desired interactive features. 
-                                The user's projects are showcased with descriptions, images, and links to demonstrate their skills and accomplishments."
-                link="https://github.com/Chipsii/SS"
-                github="https://github.com/Chipsii/"
-                type="Portfolio Website"
+                title="Mudslangers"
+                img={mudslanger}
+                summary="Mudslangers is an online platform that sells online tickets for different events help by the organization"
+                link="https://www.mudslangers.com/"
+                github="https://github.com/jubaedprince/mudslangers-frontend"
+                type="Business Project"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
@@ -193,14 +192,12 @@ const projects = () => {
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
-                title="Genesis-Dashboard"
-                img={dashboard}
-                summary="Genesis-Dashboard - With this powerful tool, users can create their own tables and easily add data to them. 
-                The tables are securely saved in the backend, ensuring data integrity and flexibility. 
-                What's more, these tables are exposed through public endpoints, enabling seamless integration with other websites and applications"
-                link="https://dashboard.genesis.nexentra.online"
-                github="https://github.com/nexentra/genesis-dashboard"
-                type="Dashboard Application"
+                title="Procurementing"
+                img={procurementing}
+                summary="Procurementing is a user-friendly SAAS procurement software tailored for small businesses. With Procurementing, businesses can efficiently manage purchase orders, approvals, and expenses, ultimately improving overall operational effectiveness. This SAAS Procurement Software focuses on simplicity without compromising functionality, making it an ideal solution for small businesses looking to enhance procurement efficiency and optimize supplier management"
+                link="https://procurementing.com/"
+                github="https://procurementing.com/"
+                type="Procurement Project"
               />
             </div>
           </div>
