@@ -22,7 +22,7 @@ const Footer = () => {
           </Link>
         </div>
         <Link
-          href="https://spotitubemerge.nexentra.online"
+          href="https://discord.com/users/628083552239616000"
           target={"_blank"}
           className="underline underline-offset-2 "
         >
