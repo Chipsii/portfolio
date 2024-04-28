@@ -11,6 +11,7 @@ import project2 from "../../public/images/projects/AbletonClone.jpg";
 import ohstudio from "../../public/images/projects/ohstudio.png";
 import carShowcase from "../../public/images/projects/carShowcase.jpg";
 import procurementing from "../../public/images/projects/procurementing.jpg";
+import backstage from "../../public/images/projects/backstage.jpg";
 import { motion } from "framer-motion";
 import TransitionEffect from "@/components/TransitionEffect";
 
@@ -166,17 +167,7 @@ const projects = () => {
                 summary="Clone of the well-known website OH-STUDIO."
                 link="https://oh-studio-clone-mu.vercel.app/"
                 github="https://github.com/Chipsii/oh-studio-clone"
-                type="Website clone(OH-STUDIO)"
-              />
-            </div>
-            <div className="col-span-12">
-              <FeaturedProject
-                title="Ableton-Clone"
-                img={project2}
-                summary="Ableton clone is a platform that offers services related to music production."
-                link="https://ableton-clone-pi.vercel.app/"
-                github="https://github.com/Chipsii/ableton-clone"
-                type="Website clone(Ableton)"
+                type="Side Project"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
@@ -198,6 +189,26 @@ const projects = () => {
                 link="https://procurementing.com/"
                 github="https://procurementing.com/"
                 type="Procurement Project"
+              />
+            </div>
+            <div className="col-span-12">
+              <FeaturedProject
+                title="Ableton-Clone"
+                img={project2}
+                summary="Ableton clone is a platform that offers services related to music production."
+                link="https://ableton-clone-pi.vercel.app/"
+                github="https://github.com/Chipsii/ableton-clone"
+                type="Side Project"
+              />
+            </div>
+            <div className="col-span-6 sm:col-span-12">
+              <Project
+                title="Backstage Talks Magazine"
+                img={backstage}
+                summary="Backstage Talks is a magazine of casual, but in depth dialogues on design and business. Our decisions shape and influence this complex world—to have a chance to make the right ones, we need to talk."
+                link="https://backstagetalks-git-main-chipsiis-projects.vercel.app/"
+                github="https://github.com/Chipsii/backstage-talks-magazine"
+                type="Side Project"
               />
             </div>
           </div>
