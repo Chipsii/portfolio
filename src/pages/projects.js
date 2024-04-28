@@ -195,7 +195,7 @@ const projects = () => {
               <FeaturedProject
                 title="Ableton-Clone"
                 img={project2}
-                summary="Ableton clone is a platform that offers services related to music production."
+                summary="Ableton clone is a platform that offers services related to music production. Ableton was founded in 1999 and released the first version of Live in 2001. Our products are used by a community of dedicated musicians, sound designers, and artists from across the world."
                 link="https://ableton-clone-pi.vercel.app/"
                 github="https://github.com/Chipsii/ableton-clone"
                 type="Side Project"
