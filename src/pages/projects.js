@@ -12,6 +12,7 @@ import ohstudio from "../../public/images/projects/ohstudio.png";
 import carShowcase from "../../public/images/projects/carShowcase.jpg";
 import procurementing from "../../public/images/projects/procurementing.jpg";
 import backstage from "../../public/images/projects/backstage.jpg";
+import basicdept from "../../public/images/projects/basicdept.PNG"
 import { motion } from "framer-motion";
 import TransitionEffect from "@/components/TransitionEffect";
 
@@ -208,6 +209,17 @@ const projects = () => {
                 summary="Backstage Talks is a magazine of casual, but in depth dialogues on design and business. Our decisions shape and influence this complex world—to have a chance to make the right ones, we need to talk."
                 link="https://backstagetalks-git-main-chipsiis-projects.vercel.app/"
                 github="https://github.com/Chipsii/backstage-talks-magazine"
+                type="Side Project"
+              />
+            </div>
+            <div className="col-span-6 sm:col-span-12">
+              <Project
+                title="Basic/Dept"
+                img={basicdept}
+                summary="
+                BASIC/DEPT® is a global branding and experience design company. they design and develop brand programs and digital platforms for the world's most renowned companies."
+                link="https://basic-dept-five.vercel.app/"
+                github="https://github.com/Chipsii/basic-dept-master"
                 type="Side Project"
               />
             </div>
