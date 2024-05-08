@@ -12,7 +12,7 @@ import ohstudio from "../../public/images/projects/ohstudio.png";
 import carShowcase from "../../public/images/projects/carShowcase.jpg";
 import procurementing from "../../public/images/projects/procurementing.jpg";
 import backstage from "../../public/images/projects/backstage.jpg";
-import basicdept from "../../public/images/projects/basicdept.PNG"
+import basicdept from "../../public/images/projects/basicdept.PNG";
 import { motion } from "framer-motion";
 import TransitionEffect from "@/components/TransitionEffect";
 
