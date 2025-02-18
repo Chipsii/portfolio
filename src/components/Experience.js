@@ -75,11 +75,11 @@ const Experience = () => {
           />
 
           <Details
-            position="Front-end Web Developer"
+            position="Full-Stack Developer"
             company="Techynaf"
             companyLink="https://techynaf.com/"
             time="2023-Present"
-            address="London, UK"
+            address="Toronto, Canada"
             work="Created engaging and responsive website designs with that increased website traffic.
                     Streamlined CSS styling process with Sass to reduce production time."
           />

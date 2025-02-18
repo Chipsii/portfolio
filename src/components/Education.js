@@ -61,7 +61,7 @@ md:w-[2px] md:left-[30px] xs:left-[20px]
                     />
 
                     <Details 
-                    type="In Real Life Coursework" 
+                    type="Online Coursework"
                     time="2021-2023" 
                     place="London App Brewery" 
                     info="Completed coursework in adeep learning, developing a new neural network architecture for natural 

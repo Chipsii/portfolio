@@ -13,6 +13,7 @@ import carShowcase from "../../public/images/projects/carShowcase.jpg";
 import procurementing from "../../public/images/projects/procurementing.jpg";
 import backstage from "../../public/images/projects/backstage.jpg";
 import basicdept from "../../public/images/projects/basicdept.jpg";
+import airtap from "../../public/images/projects/airtap.png";
 import { motion } from "framer-motion";
 import TransitionEffect from "@/components/TransitionEffect";
 
@@ -157,7 +158,7 @@ const projects = () => {
                 img={mudslanger}
                 summary="Mudslangers is an online platform that sells online tickets for different events help by the organization"
                 link="https://www.mudslangers.com/"
-                github="https://github.com/jubaedprince/mudslangers-frontend"
+                github="https://www.mudslangers.com/"
                 type="Business Project"
               />
             </div>
@@ -193,13 +194,13 @@ const projects = () => {
               />
             </div>
             <div className="col-span-12">
-              <FeaturedProject
-                title="Ableton-Clone"
-                img={project2}
-                summary="Ableton clone is a platform that offers services related to music production. Ableton was founded in 1999 and released the first version of Live in 2001. Our products are used by a community of dedicated musicians, sound designers, and artists from across the world."
-                link="https://ableton-clone-pi.vercel.app/"
-                github="https://github.com/Chipsii/ableton-clone"
-                type="Side Project"
+            <FeaturedProject
+                title="Airtap"
+                img={airtap}
+                summary="Airtap is a no-code wallet for Google and Apple, with POS and SaaS in-wallet solutions and API solutions, simplifying customer experience with wallet integrations."
+                link="https://airtap.app/"
+                github="https://airtap.app/"
+                type="Digital Wallet"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
@@ -220,6 +221,16 @@ const projects = () => {
                 BASIC/DEPT® is a global branding and experience design company. they design and develop brand programs and digital platforms for the world's most renowned companies."
                 link="https://basic-dept-five.vercel.app/"
                 github="https://github.com/Chipsii/basic-dept-master"
+                type="Side Project"
+              />
+            </div>
+            <div className="col-span-6 sm:col-span-12">
+              <Project
+                title="Ableton-Clone"
+                img={project2}
+                summary="Ableton clone is a platform that offers services related to music production. Ableton was founded in 1999 and released the first version of Live in 2001. Our products are used by a community of dedicated musicians, sound designers, and artists from across the world."
+                link="https://ableton-clone-pi.vercel.app/"
+                github="https://github.com/Chipsii/ableton-clone"
                 type="Side Project"
               />
             </div>
